@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Alfreditus Corp</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="icon" href="icons8-snorlax-48.png">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/a6d70c64b4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="paralx.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="title" class="slide header">
+  <h1>Alfredo Suarez</h1>
+  <h6>Hello Stranger! Welcome to my page</h6>
+  <a href="" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon></a>
+</div>
+
+<div id="slide1" class="slide">
+  <div class="title">
+    <h1>My skills</h1>
+    <div id="skills">
+      <div class="btn-group">
+          <button onclick="fhtml()"><i class="fab fa-html5 fa-3x"><br></i></button>
+          <button onclick="fcloud()"><i class="fas fa-cloud fa-3x"></i><br></button>
+          <button onclick="fcss()"><i class="fab fa-css3-alt fa-3x"></i><br></button>
+          <button onclick="fjs()"><i class="fab fa-js fa-3x"></i></i><br></button>
+      </div>
+      
+      <div id="cloud" class="divsapear">
+          <ul>
+              <li>Workday Studio Certified</li>
+              <li>BIRT Product Lead</li>
+              <li>Core Connectors</li>
+              <li>Cloud Architecture</li>
+              <li>Digital Transformation</li>
+          </ul>
+      </div>
+      <div id="css" class="divsapear">
+          <span>I've built many pages, I can analyze code and troubleshoot it</span>
+      </div>
+      <div id="javascript" class="divsapear">
+          <ul>
+              <li>XSTL 2.0, 3.0</li>
+              <li>Node.js</li>
+              <li>APIs, dealing with inbound and outbound data</li>
+          </ul>
+      </div>
+      <div id="html" class="divsapear">
+          <ul>
+              <li>Semantic HTML</li>
+              <li>Building Websites from 0</li>
+          </ul>
+      </div>
+  <script>
+  function fhtml() {
+    document.getElementById('html').style.height = "100px"
+    document.getElementById('css').style.height = "0px"
+    document.getElementById('javascript').style.height = "0px"
+    document.getElementById('cloud').style.height = "0px"
+}
+function fcss() {
+    document.getElementById('css').style.height = "100px"
+    document.getElementById('javascript').style.height = "0px"
+    document.getElementById('cloud').style.height = "0px"
+    document.getElementById('html').style.height = "0px"
+}
+function fjs() {
+    document.getElementById('javascript').style.height = "100px"
+    document.getElementById('cloud').style.height = "0px"
+    document.getElementById('html').style.height = "0px"
+    document.getElementById('css').style.height = "0px"
+}
+function fcloud() {
+    document.getElementById('cloud').style.height = "100px"
+    document.getElementById('html').style.height = "0px"
+    document.getElementById('css').style.height = "0px"
+    document.getElementById('javascript').style.height = "0px"
+}</script>    
+  </div>
+  </div>
+</div>
+
+<div id="slide2" class="slide">
+  <div class="title">
+    <article>
+      <aside style="margin: 10pt;">
+          <span>Hello World</em>. My name is Alfredo, I'm a tech enthusiast, self thought person,
+              I love to read and learn new things.
+              <br>
+              Currently learning Full-Stack Engineering. And Back-End Development to enhance daily life
+              matters. Interested in Blockchain and Machine Learning.
+              <br>
+               And also Proud Photographer
+              <br>
+          </span>
+      </aside>
+  </article>
+  </div>
+  <img src="me.jpg"> 
+  <img src="rawphotographyblog.jpg">
+</div>
+
+<div id="slide3" class="slide">
+  <div class="title">
+    <h2><i class="fas fa-quote-left"></i> My Favorite Quotes <i class="fas fa-quote-right"></i></h2>
+                      <aside>
+                        <br><p class="textmiddle" id="quoteDisplay"><em>“Above all, don't lie to yourself. The man who lies
+                                  to himself and listens to his own lie comes to a point that he cannot distinguish the
+                                  truth within him, or around him, and so loses all respect for himself and for others.
+                                  And having no respect he ceases to love.”</em> ― Fyodor Dostoevsky, The Brothers
+                              Karamazov</p><br>
+                          <script src="quotes.js"></script>
+                      </aside>
+    </div>
+</div>
+
+<div id="slide4" class="slide header">
+  <div>
+    <div class="footer-basic">
+      <div class="social"><a href="https://www.linkedin.com/in/alfredosa" target="_blank"><i
+        class="icon ion-social-linkedin"></i></a><a href="https://www.instagram.com/alfredo_sa/"
+    target="_blank"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/alfredosa10"
+    target="_blank"><i class="icon ion-social-twitter"></i></a></div>
+      <p class="copyright">Alfreditus corp © 1993 - Mors Mihi Lucrum</p>
+    </div> 
+</div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
